@@ -10,13 +10,13 @@ self.popView.delegate = self;
 
 
 // 代理方法
-- (void)didSelectedItemWithValueArray:(NSMutableArray *)valueAM {
+-- (void)didSelectedItemWithValueArray:(NSMutableArray *)valueAM {
 
     NSLog(@"valueAM = %@", valueAM);
 
 }
 
-- (void)getDataWithType:(NSInteger)type {
+-- (void)getDataWithType:(NSInteger)type {
 
     self.popView.dataSource = self.menuAM[type];
 
