@@ -21,3 +21,4 @@ self.popView.delegate = self;
     self.popView.dataSource = self.menuAM[type];
 
 }
+
